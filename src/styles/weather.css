@@ -1,0 +1,43 @@
+.weatherBox {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.currentTemp {
+  text-align: center;
+}
+
+#cityName {
+  font-size: 3rem;
+  text-shadow: 3px 3px 10px #000000;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 5%;
+}
+
+#countryName {
+  text-shadow: 3px 3px 12px #000;
+}
+#cityTemp {
+  font-size: 5em;
+  margin-top: 10%;
+  text-shadow: 3px 3px 12px #000000;
+}
+
+#currentWeather {
+  margin-bottom: 10%;
+  text-shadow: 3px 3px 12px #000000;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 415px) {
+  .weatherBox {
+    margin: 0;
+    width: 100vw;
+    color: #fff;
+  }
+}

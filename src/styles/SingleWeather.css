@@ -1,0 +1,68 @@
+.dayWeatherBox {
+  color: #fff;
+  padding: 12px;
+  width: 18%;
+  margin: 1%;
+  float: left;
+}
+
+.dayWeatherBox:hover {
+  color: #fff;
+  padding: 12px;
+  width: 18%;
+  margin: 1%;
+  float: left;
+  font-size: 1.05rem;
+}
+
+#dayOfWeek {
+  text-shadow: 3px 3px 10px #000000;
+  font-size: 1.5em;
+}
+.dayTemp {
+  display: inline-block;
+}
+.dayTemp h1 {
+  font-size: 3em;
+  float: left;
+  text-shadow: 3px 3px 10px #000000;
+}
+
+.dayTemp img {
+  float: left;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 705px) {
+  .dayWeatherBox {
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .dayWeatherBox:hover {
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+
+    font-size: 1.05rem;
+  }
+
+  #dayOfWeek {
+    float: left;
+  }
+
+  .dayTemp {
+    float: right;
+  }
+  .dayTemp h1 {
+    font-size: 2em;
+
+    text-shadow: 3px 3px 10px #000000;
+  }
+
+  .dayTemp img {
+    height: 50px;
+    width: 50px;
+  }
+}

@@ -1,32 +1,64 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  background-image: url("./assets/images/storm.jpg");
+  background-size: cover;
+
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.day-bg {
+  background-image: url("./assets/images/Day.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-top: -8px;
+  padding: 0;
+}
+.night-bg {
+  background-image: url("./assets/images/Night.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-top: -8px;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#backArrow {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 2%;
+  background: #fff;
+  border-radius: 50%;
+  padding: 1px;
+  opacity: 0.9;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+#backArrow:hover {
+  opacity: 0.7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#changeTemp {
+  float: right;
+  position: relative;
+  color: #fff;
+  margin-top: 2%;
+  margin-right: 2%;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer {
+  font-family: "Roboto", "sans-serif";
+  color: #fff;
+  text-shadow: 1px 1px 12px #000;
+
+  font-size: 1em;
+
+  cursor: pointer;
+
+  top: 90%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
